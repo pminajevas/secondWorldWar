@@ -1,0 +1,236 @@
+ul.nav {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	z-index:2000;
+}
+ul.nav li {
+	float:left;
+	width:16.666666666%;
+	height:60px;
+	background-color: black;
+	opacity:.8;
+	line-height:60px;
+	text-align: center;
+	font-size:25px;
+	z-index:2000;
+}
+ul.nav li a {
+	text-decoration:none;
+	color:white;
+	display: block;
+	width:100%;
+	z-index:2000;
+}
+ul.nav li a:hover {
+	background-color:#2C2828;
+	z-index:2000;
+}
+ul.nav li ul li {
+	display:none;
+	width:114%;
+	margin-left: -14%;
+	opacity: 0.9;
+	z-index:2000;
+}
+ul.nav li:hover ul li{
+	display:block;
+	z-index:2000;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index:2000;
+}
+body {
+	font-size: 30px;
+	padding: 0px;
+	margin:0px;
+	overflow-x:hidden;
+	font-family:Times New Roman;
+	background-image: url("bg.jpg");
+	background-repeat: repeat;
+}
+#headeris {
+	font-family: Impact, Charcoal, sans-serif;
+	text-shadow: 4px 4px 8px black;
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #802800;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 100px;
+	text-align: center;
+	border-bottom: ridge 4px black;
+}
+.titleris {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+}
+span.fpav{
+	font-weight: normal;
+	color: white;
+}
+		/*vadai*/
+div.dezevad {
+	width: 50%;
+	height: auto;
+	background-color: #802800;
+	padding: 42px;
+	text-align: center;
+	display:inline-block;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+#tablevadai {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	border: solid 0px black;
+	border-bottom: solid 4px black;
+}
+#tablevadai td {
+	width: 33.33%;
+	border: solid 0px black;
+}
+img.vadaif {
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px 8px black;
+	height: 360px;
+	width: auto;
+}
+		/*ginklai*/
+div.dezegink {
+	width: 70%;
+	height: auto;
+	background-color: #802800;
+	padding: 42px;
+	text-align: center;
+	display:inline-block;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+#tablegink {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	border: solid 0px black;
+	border-bottom: solid 4px black;
+}
+#tablegink td {
+	width: 25%;
+	border: solid 0px black;
+}
+img.ginklaif {
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px 8px black;
+	width: auto;
+	max-height: 170px;
+}
+		/*lektuvai*/
+div.dezelekt {
+	width: 70%;
+	height: auto;
+	background-color: #802800;
+	padding: 42px;
+	text-align: center;
+	display:inline-block;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+#tablelekt {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	border: solid 0px black;
+	border-bottom: solid 4px black;
+}
+#tablelekt td {
+	width: 33.33%;
+	border: solid 0px black;
+}
+img.lektuvuf {
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px 8px black;
+	width: auto;
+	height: 200px;
+}
+		/*tankai*/
+div.dezetank{
+	width: 68%;
+	height: auto;
+	background-color: #802800;
+	padding: 42px;
+	text-align: center;
+	display:inline-block;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+#tabletank {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	border: solid 0px black;
+	border-bottom: solid 4px black;
+}
+#tabletank td {
+	width: 33.33%;
+	border: solid 0px black;
+}
+img.tankuf{
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px 8px black;
+	width: auto;
+	height: 180px;
+}
+		/*laivai*/
+div.dezelaiv{
+	width: 68%;
+	height: auto;
+	background-color: #802800;
+	padding: 42px;
+	text-align: center;
+	display:inline-block;
+	margin-bottom: 40px;
+	border-radius: 15px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+#tablelaiv {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+	border: solid 0px black;
+	border-bottom: solid 4px black;
+}
+#tablelaiv td {
+	width: 33.33%;
+	border: solid 0px black;
+}
+img.laivuf {
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 8px 8px black;
+	width: auto;
+	height: 90px;
+}
+html{
+	zoom:75%;
+}
